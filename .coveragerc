@@ -1,0 +1,18 @@
+[run]
+source = 
+	test
+	app
+omit = 
+	env/* 
+	*/test*
+	*/__init__.py
+	
+exclude_lines = 
+	programa: no cover
+	def setUp
+	def test_
+	return raw imput
+	print
+	if name == '__main__':
+	def suite
+	__str__
